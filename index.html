@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href = "app.css">
+        <title> julia set </title>
+    </head>
+
+    <body>
+        <canvas id = 'canvas'> </canvas>
+        <iframe name = 'iframe'></iframe>
+        <form id = 'form' target = 'iframe'>
+            <div class = 'real'>
+                <label for="real">Real</label>
+                <input type="number" id="real" name = 'real' min="-1000000" max="1000000" value = -0.70176 class = 'adjustment' step = 'any'>
+            </div>
+            <div class = 'imaginary'>
+                <label for="imaginary">Imaginary</label>
+                <input type="number" id="imaginary" name = 'imaginary' min="-1000000" max="1000000" value = -0.3842 class = 'adjustment' step = 'any'>
+                <input type="submit" value="Submit" class = 'adjustment' onclick = 'redraw()'>
+            </div>
+        </form>
+        
+
+        <script src = 'app.js'> </script>
+    </body>
+</html>

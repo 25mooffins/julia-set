@@ -1,0 +1,45 @@
+body{
+    background: black;
+    overflow: hidden;
+}
+
+canvas{
+    background: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -80px;
+}
+.real{
+    position: absolute;
+    top: 85%;
+    left: 36.5%;
+}
+.imaginary{
+    position: absolute;
+    top: 85%;
+    left: 48.5%;
+}
+
+
+.adjustment{
+    background-color: rgb(150, 150, 150);
+    position: relative;
+    top: -7px;
+    font-size: 1vw;
+}
+#imaginary{
+    width: 21%;
+}
+#real{
+    width: 35%;
+}
+
+
+label{
+    color: rgb(173, 173, 173);
+    font-size: 2vw;
+}
+input{
+    height: 2vw;
+}
